@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Feature</title>
+    <link rel="icon" href="images/logo.png">
+    <!-- bootsrtap -->
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!-- bs -->
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- custom -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/custom.js"></script>
+    <!-- fs -->
+    <script src="fontawesome/js/all.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- navbar -->
+    <div id="nav_bar" class="sticky-top">    
+        <nav class="bg-danger">
+            <div class="container text-white py-1">
+                <div class="row">
+                    <div class="col-6 col-md-9">
+                        <small>
+                            <span class="d-none d-md-inline d-inline-block"><i class="far fa-envelope"></i> contact@worldfeature.com</span><span class="  ms-md-4"> <i class="fas fa-phone-square-alt"></i>&nbsp; +959 968962449</span>
+                        </small>
+                    </div>
+                    <div class="col-6 col-md-3 text-end">
+                        <small>
+                            Follow Us &nbsp;:
+                            <a href="" class="text-white"><i class="fab fa-facebook ms-2"></i></a>
+                            <a href="" class="text-white"><i class="fab fa-twitter-square ms-2"></i></a>
+                            <a href="" class="text-white"><i class="fab fa-instagram ms-2"></i></a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  shadow-md py-3" >
+            <div class="container">
+            <a class="navbar-brand" href="index.html"><b class="text-danger">World</b><b class="text-success"> Feature</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto">				
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Category 
+                        </a>
+                        <ul class="dropdown-menu navbar_dropdown" aria-labelledby="navbarDropdown">                     
+                        <li><a class="dropdown-item" href="#">Category 1</a></li>
+                        <li><a class="dropdown-item" href="#">Category 2</a></li>
+                        <li><a class="dropdown-item" href="#">Category 3</a></li>
+                        <li><a class="dropdown-item" href="#">Category 4</a></li>
+                        <li><a class="dropdown-item" href="#">Category 5</a></li>
+                        <li><a class="dropdown-item" href="#">Category 6</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Promotion</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>       
+                
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end navbar -->
+
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/slider_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/slider_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/slider_3.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end carousel -->
+
+
+    <!-- service -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 my-2">
+                <div class="card py-3 px-2 h-100">
+                    <div class="row">
+                        <div class="col-4 col-md-3 text-center ">
+                            <i class="fas fa-shipping-fast fa-2x pt-2"></i>
+                        </div>
+                        <div class="col-8 col-md-9">
+                            <h6 class="font-weight-bold">Fast & Free Shipping</h6>
+                            <p class="text-muted ">For orders from $50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-2">
+                <div class="card py-3 px-2 h-100">
+                    <div class="row">
+                        <div class="col-4 col-md-3 text-center">
+                            <i class="fas fa-headset fa-2x pt-2 "></i>
+                        </div>
+                        <div class="col-8 col-md-9">
+                            <h6 class="font-weight-bold">Support 24/7</h6>
+                            <p class="text-muted ">Call us anytime</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-2">
+                <div class="card py-3 px-2 h-100">
+                    <div class="row">
+                        <div class="col-4 col-md-3 col-lg-3 text-center">
+                            <i class="fas fa-shield-alt fa-2x pt-2"></i>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-9">
+                            <h6 class="font-weight-bold">100% Safety</h6>
+                            <p class="text-muted ">Only secure payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 my-2">
+                <div class="card py-3 px-2 h-100">
+                    <div class="row">
+                        <div class="col-4 col-md-4 col-lg-3 text-center">
+                            <!-- <i class="fas fa-tags fa-2x pt-2 "></i> -->
+                            <i class="fa-solid fa-gift fa-2x pt-2 "></i>
+                        </div>
+                        <div class="col-8 col-md-8 col-lg-9">
+                            <h6 class="font-weight-bold">Gift Promotion</h6>
+                            <p class="text-muted ">Discounts up to 90%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end service -->
+
+    <!-- Promotion -->
+    <div class="container my-5">
+        <h4 class="py-3">Promotion Items</h4>
+        <section class="customer-logos slider">
+
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/cup.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">20000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">25000MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Cup</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/bag.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">20000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">25000MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Pocari Sweat Bag </h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/blanket.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">20000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">25000MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Blanket</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/brooch.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">2000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">2500MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Brooch</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/bag.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">20000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">25000MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Pocari Sweat Bag</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/gas_lighter_two.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">20000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">25000MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Gas Lighter</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/img_7.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">20000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">25000MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>ATM</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="slide text-center mx-2">
+                <div class="card_img card">
+                    <a href="" class="text-decoration-none text-dark ">
+                        <img src="images/img_8.jpg" class="image" alt="...">
+                        <div class="add_button">      			
+                            <p class="p-0 m-0"><span class="badge rounded-pill bg-danger">2000MMK</span></p>
+                            <p class="p-0 m-0"><span class="badge rounded-pill text-danger text-decoration-line-through">2500MMK</span></p>
+
+                        </div>
+                        <div>      			
+                            <h6>Coca Cola Sticker</h6>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- end promotion -->
+
+    <!-- new Arrival -->
+    <div class="container my-5 pt-3">
+        <h4 class="my-4">New Arrival</h4>
+        <div class="row mb-3">
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="shadow-lg p-4 rounded">
+                    <div class="new_arrival_image_hover">
+                        <img src="images/bag.jpg" class="card-img-top new_arrival_image" alt="...">
+                        <div class="view_detail">
+                            <a href="" class="btn btn-sm btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                    <hr style="width: 50%;display: inline-block;border: 2px solid red;"><hr style="width: 50%;display: inline-block;border: 2px solid lightgreen;">
+                    <p class="my-0 py-0 ">Men Back Bag</p>
+                    <p class="new_price">Category<span class="float-end">20000MMK</span></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- letter -->
+    <div class="my-5 bg-danger">
+        <div class="container">
+            <div class="row pt-4 pb-1">
+                <div class="col-md-6">
+                    <h3 class="text-light pt-md-5 pb-3">Subscribe to our Channel</h3>
+                    <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas voluptatum deleniti nobis, doloribus voluptatem mollitia nesciunt magni!</p>
+                    <div class="input-group py-3">
+                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-success" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="offset-1 offset-md-2 col-10 col-md-4">
+                    <img src="images/logo.png" alt="" srcset="" class="img-fluid mt-sm-5 mt-lg-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- News -->
+    <div class="container my-5">	
+        <h3 class="pt-5">Latest News</h3>
+        <div class="row row-cols-1 row-cols-md-3 my-4">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <div class="card_img">
+                        <a href=""><img src="images/new1.jpg" class="card-img-top images" alt="..."></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Discuss With Other Partner</h5>
+                        <p class="card-text text-muted"> <i> <small> By Admin on &nbsp;<span>28 September 2022</span> </small></i></p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis praesentium ipsam, voluptatem rem unde quis? Ad eaque deleniti amet aliquam voluptatibus quasi...</p>
+                        <a href="#" class="read_more text-decoration-none text-danger">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <div class="card_img">
+                        <a href=""><img src="images/new3.jpg" class="card-img-top images" alt="..."></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Discuss Metting With Partner</h5>
+                        <p class="card-text text-muted"> <i> <small> By Admin on &nbsp;<span>28 September 2022</span> </small></i></p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis praesentium ipsam, voluptatem rem unde quis? Ad eaque deleniti amet aliquam voluptatibus quasi...</p>
+                        <a href="#" class="read_more text-decoration-none text-danger">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <div class="card_img">
+                        <a href=""><img src="images/new2.jpg" class="card-img-top images" alt="..."></a>
+                    </div>
+                    <div class="card-body">            
+
+                        <h5 class="card-title text-danger">People Protect for COVID-19</h5>
+                        <p class="card-text text-muted"> <i> <small> By Admin on &nbsp;<span>28 September 2022</span> </small></i></p>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis praesentium ipsam, voluptatem rem unde quis? Ad eaque deleniti amet aliquam voluptatibus quasi...</p>
+                        <a href="#" class="read_more text-decoration-none text-danger">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>		
+    </div>
+    <!-- end News -->
+
+    <!-- footer -->
+    <footer id="footer" class="pt-5 bg-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-12">
+                    <h5 class="text-secondary">World Feature</h5>
+                    <p class="text-secondary" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit consequatur corporis animi vel ad architecto tempore esse sit consectetur, labore blanditiis neque in quisquam.</p>
+				</div>
+				<div class="col-md-2 ps-md-5 col-6">
+                    <p><a href="index.html" class="text-decoration-none text-secondary">Home</a></p>
+                    <p><a href="#" class="text-decoration-none text-secondary">About</a></p>
+                    <p><a href="#" class="text-decoration-none text-secondary">Contact</a></p>
+			    </div>
+                <div class="col-md-2 ps-md-5 col-6">
+                    <p><a href="#" class="text-decoration-none text-secondary ">News</a></p>
+                    <p><a href="#" class="text-decoration-none text-secondary">Promotion</a></p>
+                    <p><a href="#" class="text-decoration-none text-secondary">Service</a></p>
+			    </div>
+		
+				<div class="col-md-4 text-secondary">							
+                    <p><i class="fas fa-home mx-1"></i>
+                    Room (8,9), First Floor,Mingaladon Township, Yangon</p>
+                    <p><i class="fas fa-phone mx-1"></i> +959 968962449</p>
+                    <p><i class="far fa-envelope mx-1"></i> 
+                    worldfeature@gmail.com</p>
+                    <p id="footer_icon">
+                        <i class="fab fa-twitter-square fa-xl ms-2"></i>
+                        <i class="fab fa-facebook fa-xl ms-2"></i>
+                        <i class="fab fa-instagram fa-xl ms-2"></i>
+                    </p>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container-fluid text-secondary">
+			<div class="row">
+				<div class="col-md-12 text-center my-3">
+					Designed by @ Myanmar IT Colsulting
+					
+				</div>
+			</div>			
+		</div>		
+	</footer>
+    <script src="bootstrap/js/slick.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 987,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }, 
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }]
+            });
+         });
+    </script>
+
+</body>
+</html>
