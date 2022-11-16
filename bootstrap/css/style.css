@@ -87,6 +87,14 @@
 
 
 /* poromotion slide */
+
+.divided{
+    max-width: 70px;
+    margin-top: 0px;
+    padding-top: 0px !important;
+    margin-bottom: 30px;
+    border: 2px solid green;
+}
 slick-slide {
     margin: 0px 20px;
 }
